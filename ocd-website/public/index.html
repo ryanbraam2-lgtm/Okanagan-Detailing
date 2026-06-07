@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Okanagan Car Detail — OCD</title>
+  <meta name="description" content="Premium car detailing in Lake Country, BC. Obsessive attention to detail." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAVBAR ═══════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="images/ocd_logo.png" alt="OCD Logo" />
+      </a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#links" class="nav-link">Links</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ════════════════════════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-bg-lines"></div>
+    <div class="hero-content">
+      <div class="hero-logo fade-up">
+        <img src="images/ocd_logo.png" alt="Okanagan Car Detail Logo" />
+      </div>
+      <h1 class="hero-title fade-up delay-1">Okanagan Car Detail</h1>
+      <p class="hero-tagline fade-up delay-2">Obsessive Attention to Detail</p>
+      <div class="hero-divider fade-up delay-3"></div>
+      <p class="hero-location fade-up delay-3">Lake Country, BC &nbsp;·&nbsp; 250-863-9104</p>
+      <a href="#contact" class="btn-primary fade-up delay-4">Book Now</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ SERVICES ════════════════════════════════ -->
+  <section id="services" class="services section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Our Services</h2>
+        <div class="title-rule"></div>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M12 28l4-8 6 4 4-10 6 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Full Detail</h3>
+          <p class="service-desc">Complete interior and exterior transformation. Every surface cleaned, polished, and protected to showroom standard.</p>
+          <span class="service-price">From $299</span>
+        </div>
+
+        <div class="service-card fade-up delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="14" width="32" height="22" rx="3" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M16 14v-2a2 2 0 012-2h12a2 2 0 012 2v2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M24 20v8M20 24h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Interior Detail</h3>
+          <p class="service-desc">Deep extraction, leather conditioning, dashboard restoration. Your cabin restored to pristine condition.</p>
+          <span class="service-price">From $149</span>
+        </div>
+
+        <div class="service-card fade-up delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 32l6-12h20l6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M6 32h36v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4z" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="14" cy="38" r="3" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="34" cy="38" r="3" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Exterior Wash & Wax</h3>
+          <p class="service-desc">Hand wash, clay bar treatment, and carnauba wax finish. Brilliant shine with lasting protection.</p>
+          <span class="service-price">From $89</span>
+        </div>
+
+        <div class="service-card fade-up delay-3">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M24 10v4M24 34v4M10 24h4M34 24h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Paint Correction</h3>
+          <p class="service-desc">Multi-stage machine polishing to eliminate swirls, scratches, and oxidation. Restore your paint's true depth.</p>
+          <span class="service-price">From $399</span>
+        </div>
+
+        <div class="service-card fade-up delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 8C15.163 8 8 15.163 8 24s7.163 16 16 16 16-7.163 16-16S32.837 8 24 8z" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M24 14c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10S29.523 14 24 14z" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="24" cy="24" r="4" fill="currentColor" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Ceramic Coating</h3>
+          <p class="service-desc">Professional-grade nano-ceramic protection. Hydrophobic barrier that lasts years, not months.</p>
+          <span class="service-price">From $799</span>
+        </div>
+
+        <div class="service-card fade-up delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="18" width="28" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M16 18v-4a2 2 0 012-2h12a2 2 0 012 2v4" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 26h28" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <circle cx="18" cy="22" r="1.5" fill="currentColor"/>
+              <circle cx="30" cy="22" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-name">Engine Bay Detail</h3>
+          <p class="service-desc">Safe degreasing and detailing of your engine bay. Clean, protected, and looking factory-fresh.</p>
+          <span class="service-price">From $99</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ABOUT ════════════════════════════════ -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image fade-left">
+          <div class="about-img-placeholder">
+            <div class="about-img-inner">
+              <span>OCD</span>
+            </div>
+          </div>
+          <div class="about-accent-box"></div>
+        </div>
+        <div class="about-content fade-right">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Born in the Okanagan</h2>
+          <div class="title-rule"></div>
+          <p>Okanagan Car Detail was founded on a simple belief: every vehicle deserves to be treated like a show car. Based in Lake Country, BC — nestled between the mountains and the lake — we bring the same obsessive precision to every detail appointment that the Okanagan brings to everything it produces.</p>
+          <p>Whether you're protecting a weekend sports car, refreshing a daily driver, or preserving a collector's piece, our team approaches every vehicle with the same relentless attention to quality. No shortcuts. No compromises. Just flawless results.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Vehicles Detailed</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5★</span>
+              <span class="stat-label">Average Rating</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Satisfaction</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn-secondary">Get a Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ GALLERY ════════════════════════════════ -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">The Results Speak</h2>
+        <div class="title-rule"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--large fade-up">
+          <div class="gallery-placeholder">
+            <span class="gallery-label">Paint Correction</span>
+          </div>
+        </div>
+        <div class="gallery-item fade-up delay-1">
+          <div class="gallery-placeholder">
+            <span class="gallery-label">Interior Detail</span>
+          </div>
+        </div>
+        <div class="gallery-item fade-up delay-2">
+          <div class="gallery-placeholder">
+            <span class="gallery-label">Ceramic Coat</span>
+          </div>
+        </div>
+        <div class="gallery-item fade-up delay-1">
+          <div class="gallery-placeholder">
+            <span class="gallery-label">Exterior Wash</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide fade-up delay-2">
+          <div class="gallery-placeholder">
+            <span class="gallery-label">Full Detail</span>
+          </div>
+        </div>
+        <div class="gallery-item fade-up delay-3">
+          <div class="gallery-placeholder">
+            <span class="gallery-label">Engine Bay</span>
+          </div>
+        </div>
+      </div>
+      <p class="gallery-note fade-up">Follow us on Instagram & TikTok for the latest transformations.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ LINKS ═════════════════════════════════ -->
+  <section id="links" class="links-section section">
+    <div class="container">
+      <div class="links-inner">
+        <div class="links-logo fade-up">
+          <img src="images/ocd_logo.png" alt="OCD Logo" />
+        </div>
+        <div class="section-header fade-up">
+          <span class="section-label">Connect With Us</span>
+          <h2 class="section-title">Find Us Online</h2>
+          <div class="title-rule"></div>
+        </div>
+        <div class="links-stack">
+
+          <a href="https://www.instagram.com/okanagancardetail" target="_blank" rel="noopener" class="link-pill fade-up delay-1">
+            <span class="link-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+              </svg>
+            </span>
+            <span class="link-pill-label">Instagram</span>
+            <span class="link-pill-arrow">→</span>
+          </a>
+
+          <a href="https://www.tiktok.com/@okanagancardetail" target="_blank" rel="noopener" class="link-pill fade-up delay-2">
+            <span class="link-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 12a4 4 0 104 4V4a5 5 0 005 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="link-pill-label">TikTok</span>
+            <span class="link-pill-arrow">→</span>
+          </a>
+
+          <a href="https://www.facebook.com/share/cdtM5HUhgvJYce4n/?mibextid=LQQJ4d" target="_blank" rel="noopener" class="link-pill fade-up delay-3">
+            <span class="link-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="link-pill-label">Facebook</span>
+            <span class="link-pill-arrow">→</span>
+          </a>
+
+          <a href="https://www.youtube.com/@okanagancardetail" target="_blank" rel="noopener" class="link-pill fade-up delay-4">
+            <span class="link-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z" stroke="currentColor" stroke-width="1.5"/>
+                <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="link-pill-label">YouTube</span>
+            <span class="link-pill-arrow">→</span>
+          </a>
+
+          <a href="#contact" class="link-pill link-pill--accent fade-up delay-5">
+            <span class="link-pill-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="link-pill-label">Book an Appointment</span>
+            <span class="link-pill-arrow">→</span>
+          </a>
+
+        </div>
+        <p class="linktree-ref fade-up">Or visit our full Linktree: <a href="https://linktr.ee/okanagancardetail" target="_blank" rel="noopener">linktr.ee/okanagancardetail</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ CONTACT ════════════════════════════════ -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info fade-left">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Book Your Detail</h2>
+          <div class="title-rule"></div>
+          <p>Ready to give your vehicle the treatment it deserves? Reach out to schedule your appointment. We serve Lake Country and the greater Okanagan area.</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <span class="detail-label">Text or Call</span>
+                <a href="tel:2508639104" class="detail-value">250-863-9104</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <span class="detail-label">Email</span>
+                <a href="mailto:info@okanagancardetail.com" class="detail-value">info@okanagancardetail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <div>
+                <span class="detail-label">Location</span>
+                <span class="detail-value">Lake Country, BC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap fade-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="250-000-0000" />
+              </div>
+              <div class="form-group">
+                <label for="service">Service</label>
+                <select id="service" name="service">
+                  <option value="">Select a service</option>
+                  <option value="full-detail">Full Detail</option>
+                  <option value="interior">Interior Detail</option>
+                  <option value="exterior">Exterior Wash & Wax</option>
+                  <option value="paint-correction">Paint Correction</option>
+                  <option value="ceramic">Ceramic Coating</option>
+                  <option value="engine">Engine Bay Detail</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group form-group--full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your vehicle and what you're looking for..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Send Message</button>
+            <p class="form-success" id="formSuccess">✓ Message sent! We'll be in touch soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ FOOTER ════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="images/ocd_logo.png" alt="OCD Logo" />
+          <p>Obsessive Attention to Detail</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/okanagancardetail" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/share/cdtM5HUhgvJYce4n/?mibextid=LQQJ4d" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="https://www.tiktok.com/@okanagancardetail" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 12a4 4 0 104 4V4a5 5 0 005 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/@okanagancardetail" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z" stroke="currentColor" stroke-width="1.5"/>
+              <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Okanagan Car Detail. All rights reserved. | Lake Country, BC</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
